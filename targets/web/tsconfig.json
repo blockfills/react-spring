@@ -3,5 +3,11 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist"
-  }
+  },
+  "references": [
+    { "path": "../../packages/animated" },
+    { "path": "../../packages/core" },
+    { "path": "../../packages/shared" },
+    { "path": "../../packages/types" }
+  ]
 }
