@@ -30,7 +30,7 @@
     "Josh Ellis (https://github.com/joshuaellis)"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --build",
     "prepack": "yarn run build"
   },
   "dependencies": {

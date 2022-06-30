@@ -252,7 +252,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/@react-spring-types-virtual-35397ec971/1/packages/types/",\
           "packageDependencies": [\
             ["@react-spring/types", "virtual:24856971f282f2054c70588f47d8305a5c076a135307f284c92aa8e712530c7ad181f700f97050eb9cb891b0e342eb847c92547fcc35e9807a90ac8702304865#workspace:packages/types"],\
-            ["@types/react", "npm:18.0.14"]\
+            ["@types/react", "npm:18.0.14"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "packagePeers": [\
             "@types/react"\
@@ -263,7 +264,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/types/",\
           "packageDependencies": [\
             ["@react-spring/types", "workspace:packages/types"],\
-            ["@types/react", "npm:18.0.14"]\
+            ["@types/react", "npm:18.0.14"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"]\
           ],\
           "linkType": "SOFT"\
         }]\

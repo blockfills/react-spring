@@ -28,7 +28,7 @@
   "license": "MIT",
   "author": "Josh Ellis",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --build",
     "prepack": "yarn run build"
   },
   "devDependencies": {

@@ -5,6 +5,8 @@ dist/
 .cache/
 .parcel-cache/
 .next
+tsconfig.tsbuildinfo
+*.tgz
 
 # testing
 /coverage
@@ -51,7 +53,7 @@ report.*.json
 .output
 
 #
-# Remix 
+# Remix
 #
 docs-new/public/build
 docs-new/api/_build

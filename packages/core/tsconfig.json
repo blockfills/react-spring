@@ -3,5 +3,11 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist"
-  }
+  },
+  "references": [
+    { "path": "../animated" },
+    { "path": "../rafz" },
+    { "path": "../shared" },
+    { "path": "../types" }
+  ]
 }
