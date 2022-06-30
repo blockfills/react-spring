@@ -1,6 +1,6 @@
 {
   "name": "@react-spring/rafz",
-  "version": "9.4.5-patch.1",
+  "version": "9.4.5-patch.2",
   "description": "react-spring's fork of rafz one frameloop to rule them all",
   "homepage": "https://github.com/pmndrs/react-spring#readme",
   "repository": "pmndrs/react-spring",

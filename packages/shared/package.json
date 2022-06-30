@@ -1,6 +1,6 @@
 {
   "name": "@react-spring/shared",
-  "version": "9.4.5-patch.1",
+  "version": "9.4.5-patch.2",
   "description": "Globals and shared modules",
   "homepage": "https://github.com/pmndrs/react-spring#readme",
   "repository": "pmndrs/react-spring",
