@@ -34,10 +34,10 @@
     "prepack": "yarn run build"
   },
   "dependencies": {
-    "@react-spring/animated": "~9.4.5",
-    "@react-spring/core": "~9.4.5",
-    "@react-spring/shared": "~9.4.5",
-    "@react-spring/types": "~9.4.5",
+    "@react-spring/animated": "9.4.5",
+    "@react-spring/core": "9.4.5",
+    "@react-spring/shared": "9.4.5",
+    "@react-spring/types": "9.4.5",
     "react": "^16.8 || 17.x || 18.x",
     "react-dom": "^16.8 || 17.x || 18.x"
   },

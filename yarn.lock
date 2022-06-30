@@ -54,12 +54,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-spring/animated@workspace:packages/animated, @react-spring/animated@~9.4.5":
+"@react-spring/animated@9.4.5, @react-spring/animated@workspace:packages/animated":
   version: 0.0.0-use.local
   resolution: "@react-spring/animated@workspace:packages/animated"
   dependencies:
-    "@react-spring/shared": ~9.4.5
-    "@react-spring/types": ~9.4.5
+    "@react-spring/shared": 9.4.5
+    "@react-spring/types": 9.4.5
     "@types/react": ^18.0.14
     react: ^18.2.0
     typescript: ^4.7.4
@@ -72,14 +72,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-spring/core@workspace:packages/core, @react-spring/core@~9.4.5":
+"@react-spring/core@9.4.5, @react-spring/core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@react-spring/core@workspace:packages/core"
   dependencies:
-    "@react-spring/animated": ~9.4.5
-    "@react-spring/rafz": ~9.4.5
-    "@react-spring/shared": ~9.4.5
-    "@react-spring/types": ~9.4.5
+    "@react-spring/animated": 9.4.5
+    "@react-spring/rafz": 9.4.5
+    "@react-spring/shared": 9.4.5
+    "@react-spring/types": 9.4.5
     "@types/react": ^18.0.14
     react: ^18.2.0
     typescript: ^4.7.4
@@ -96,8 +96,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@react-spring/parallax@workspace:packages/parallax"
   dependencies:
-    "@react-spring/shared": ~9.4.5
-    "@react-spring/web": ~9.4.5
+    "@react-spring/shared": 9.4.5
+    "@react-spring/web": 9.4.5
     "@types/react": ^18.0.14
     react: ^18.2.0
     typescript: ^4.7.4
@@ -110,7 +110,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-spring/rafz@workspace:packages/rafz, @react-spring/rafz@~9.4.5":
+"@react-spring/rafz@9.4.5, @react-spring/rafz@workspace:packages/rafz":
   version: 0.0.0-use.local
   resolution: "@react-spring/rafz@workspace:packages/rafz"
   dependencies:
@@ -118,12 +118,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-spring/shared@workspace:packages/shared, @react-spring/shared@~9.4.5":
+"@react-spring/shared@9.4.5, @react-spring/shared@workspace:packages/shared":
   version: 0.0.0-use.local
   resolution: "@react-spring/shared@workspace:packages/shared"
   dependencies:
-    "@react-spring/rafz": ~9.4.5
-    "@react-spring/types": ~9.4.5
+    "@react-spring/rafz": 9.4.5
+    "@react-spring/types": 9.4.5
     "@types/react": ^18.0.14
     react: ^18.2.0
     typescript: ^4.7.4
@@ -136,7 +136,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-spring/types@workspace:packages/types, @react-spring/types@~9.4.5":
+"@react-spring/types@9.4.5, @react-spring/types@workspace:packages/types":
   version: 0.0.0-use.local
   resolution: "@react-spring/types@workspace:packages/types"
   dependencies:
@@ -149,14 +149,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-spring/web@workspace:targets/web, @react-spring/web@~9.4.5":
+"@react-spring/web@9.4.5, @react-spring/web@workspace:targets/web":
   version: 0.0.0-use.local
   resolution: "@react-spring/web@workspace:targets/web"
   dependencies:
-    "@react-spring/animated": ~9.4.5
-    "@react-spring/core": ~9.4.5
-    "@react-spring/shared": ~9.4.5
-    "@react-spring/types": ~9.4.5
+    "@react-spring/animated": 9.4.5
+    "@react-spring/core": 9.4.5
+    "@react-spring/shared": 9.4.5
+    "@react-spring/types": 9.4.5
     "@testing-library/react": ^13.0.0
     "@types/react": ^18.0.14
     "@types/react-dom": ^18.0.5

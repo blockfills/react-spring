@@ -35,8 +35,8 @@
     "test": "vite serve ./test"
   },
   "dependencies": {
-    "@react-spring/shared": "~9.4.5",
-    "@react-spring/web": "~9.4.5",
+    "@react-spring/shared": "9.4.5",
+    "@react-spring/web": "9.4.5",
     "react": "^18.2.0"
   },
   "devDependencies": {
