@@ -1,6 +1,6 @@
 {
   "name": "@react-spring/parallax",
-  "version": "9.4.5",
+  "version": "9.4.5-patch.1",
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
@@ -35,8 +35,8 @@
     "test": "vite serve ./test"
   },
   "dependencies": {
-    "@react-spring/shared": "9.4.5",
-    "@react-spring/web": "9.4.5",
+    "@react-spring/shared": "9.4.5-patch.1",
+    "@react-spring/web": "9.4.5-patch.1",
     "react": "^18.2.0"
   },
   "devDependencies": {

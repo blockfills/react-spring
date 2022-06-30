@@ -1,6 +1,6 @@
 {
   "name": "@react-spring/shared",
-  "version": "9.4.5",
+  "version": "9.4.5-patch.1",
   "description": "Globals and shared modules",
   "type": "module",
   "exports": {
@@ -35,8 +35,8 @@
     "prepack": "yarn run build"
   },
   "dependencies": {
-    "@react-spring/rafz": "9.4.5",
-    "@react-spring/types": "9.4.5",
+    "@react-spring/rafz": "9.4.5-patch.1",
+    "@react-spring/types": "9.4.5-patch.1",
     "react": "^18.2.0"
   },
   "devDependencies": {
