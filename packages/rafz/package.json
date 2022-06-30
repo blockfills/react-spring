@@ -2,31 +2,18 @@
   "name": "@react-spring/rafz",
   "version": "9.4.5-patch.1",
   "description": "react-spring's fork of rafz one frameloop to rule them all",
+  "homepage": "https://github.com/pmndrs/react-spring#readme",
+  "repository": "pmndrs/react-spring",
+  "license": "MIT",
+  "author": "Josh Ellis",
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
   "files": [
-    "dist/*",
-    "README.md",
-    "LICENSE"
+    "dist"
   ],
-  "repository": "pmndrs/react-spring",
-  "homepage": "https://github.com/pmndrs/react-spring/tree/master/packages/rafz#readme",
-  "keywords": [
-    "animated",
-    "animation",
-    "hooks",
-    "motion",
-    "react",
-    "react-native",
-    "spring",
-    "typescript",
-    "velocity"
-  ],
-  "license": "MIT",
-  "author": "Josh Ellis",
   "scripts": {
     "build": "tsc --build",
     "prepack": "yarn run build"

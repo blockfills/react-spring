@@ -2,19 +2,8 @@
   "name": "react-spring--root",
   "private": true,
   "description": "Cross-platform animation engine for React",
-  "repository": "pmndrs/react-spring",
   "homepage": "https://github.com/pmndrs/react-spring#readme",
-  "keywords": [
-    "animated",
-    "animation",
-    "hooks",
-    "motion",
-    "react",
-    "react-native",
-    "spring",
-    "typescript",
-    "velocity"
-  ],
+  "repository": "pmndrs/react-spring",
   "license": "MIT",
   "author": "Paul Henschel",
   "maintainers": [
@@ -29,13 +18,6 @@
   "devDependencies": {
     "prettier": "^2.5.1",
     "typescript": "^4.7.4"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/react-spring"
   },
   "packageManager": "yarn@3.2.1"
 }

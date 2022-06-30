@@ -2,6 +2,13 @@
   "name": "@react-spring/types",
   "version": "9.4.5-patch.1",
   "description": "Internal package with TypeScript stuff",
+  "homepage": "https://github.com/pmndrs/react-spring#readme",
+  "repository": "pmndrs/react-spring",
+  "license": "MIT",
+  "author": "Paul Henschel",
+  "maintainers": [
+    "Josh Ellis (https://github.com/joshuaellis)"
+  ],
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
@@ -9,23 +16,8 @@
     "./interpolation": "./dist/interpolation.js",
     "./package.json": "./package.json"
   },
-  "repository": "pmndrs/react-spring",
-  "homepage": "https://github.com/pmndrs/react-spring#readme",
-  "keywords": [
-    "animated",
-    "animation",
-    "hooks",
-    "motion",
-    "react",
-    "react-native",
-    "spring",
-    "typescript",
-    "velocity"
-  ],
-  "license": "MIT",
-  "author": "Paul Henschel",
-  "maintainers": [
-    "Josh Ellis (https://github.com/joshuaellis)"
+  "files": [
+    "dist"
   ],
   "scripts": {
     "build": "tsc --build",

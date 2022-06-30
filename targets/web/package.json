@@ -1,48 +1,34 @@
 {
   "name": "@react-spring/web",
   "version": "9.4.5-patch.1",
+  "homepage": "https://github.com/pmndrs/react-spring#readme",
+  "repository": "pmndrs/react-spring",
+  "license": "MIT",
+  "author": "Paul Henschel",
+  "maintainers": [
+    "Josh Ellis (https://github.com/joshuaellis)"
+  ],
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
   "files": [
-    "dist/*",
-    "README.md",
-    "LICENSE"
-  ],
-  "repository": "pmndrs/react-spring",
-  "homepage": "https://github.com/pmndrs/react-spring#readme",
-  "keywords": [
-    "animated",
-    "animation",
-    "hooks",
-    "motion",
-    "react",
-    "react-native",
-    "spring",
-    "typescript",
-    "velocity"
-  ],
-  "license": "MIT",
-  "author": "Paul Henschel",
-  "maintainers": [
-    "Josh Ellis (https://github.com/joshuaellis)"
+    "dist"
   ],
   "scripts": {
     "build": "tsc --build",
     "prepack": "yarn run build"
   },
   "dependencies": {
-    "@react-spring/animated": "9.4.5-patch.1",
-    "@react-spring/core": "9.4.5-patch.1",
-    "@react-spring/shared": "9.4.5-patch.1",
-    "@react-spring/types": "9.4.5-patch.1",
+    "@react-spring/animated": "workspace:*",
+    "@react-spring/core": "workspace:*",
+    "@react-spring/shared": "workspace:*",
+    "@react-spring/types": "workspace:*",
     "react": "^16.8 || 17.x || 18.x",
     "react-dom": "^16.8 || 17.x || 18.x"
   },
   "devDependencies": {
-    "@testing-library/react": "^13.0.0",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "typescript": "^4.7.4"
