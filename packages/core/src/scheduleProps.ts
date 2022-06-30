@@ -1,13 +1,13 @@
 import { Timeout, is, raf, Globals as G } from '@react-spring/shared'
-import { matchProp, callProp } from './helpers'
-import { AsyncResult, MatchProp } from './types'
-import { RunAsyncState, RunAsyncProps } from './runAsync'
+import { matchProp, callProp } from './helpers.js'
+import { AsyncResult, MatchProp } from './types.js'
+import { RunAsyncState, RunAsyncProps } from './runAsync.js'
 import {
   AnimationResolver,
   AnimationTarget,
   InferProps,
   InferState,
-} from './types/internal'
+} from './types/internal.js'
 
 // The `scheduleProps` function only handles these defaults.
 type DefaultProps<T> = { cancel?: MatchProp<T>; pause?: MatchProp<T> }

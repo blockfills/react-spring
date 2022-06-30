@@ -5,9 +5,9 @@ import {
   getFluidValue,
   hasFluidValue,
 } from '@react-spring/shared'
-import { Animated, isAnimated, getPayload } from './Animated'
-import { AnimatedValue } from './AnimatedValue'
-import { TreeContext } from './context'
+import { Animated, isAnimated, getPayload } from './Animated.js'
+import { AnimatedValue } from './AnimatedValue.js'
+import { TreeContext } from './context.js'
 
 /** An object containing `Animated` nodes */
 export class AnimatedObject extends Animated {

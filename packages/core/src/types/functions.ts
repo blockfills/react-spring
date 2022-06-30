@@ -1,7 +1,7 @@
 import { Lookup, Falsy } from '@react-spring/types'
 
-import { Controller, ControllerQueue } from '../Controller'
-import { SpringValue } from '../SpringValue'
+import { Controller, ControllerQueue } from '../Controller.js'
+import { SpringValue } from '../SpringValue.js'
 import {
   SpringTo,
   InlineToProps,
@@ -10,10 +10,10 @@ import {
   ControllerProps,
   GoalValue,
   GoalValues,
-} from './props'
-import { AsyncResult, AnimationResult } from './objects'
-import { IsPlainObject } from './common'
-import { Readable, InferProps, InferState, InferTarget } from './internal'
+} from './props.js'
+import { AsyncResult, AnimationResult } from './objects.js'
+import { IsPlainObject } from './common.js'
+import { Readable, InferProps, InferState, InferTarget } from './internal.js'
 
 /** The flush function that handles `start` calls */
 export type ControllerFlushFn<T extends Controller<any> = Controller> = (

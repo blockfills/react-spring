@@ -28,10 +28,15 @@ import {
 } from '@react-spring/animated'
 import { Lookup } from '@react-spring/types'
 
-import { Animation } from './Animation'
-import { mergeConfig } from './AnimationConfig'
-import { scheduleProps } from './scheduleProps'
-import { runAsync, RunAsyncState, RunAsyncProps, stopAsync } from './runAsync'
+import { Animation } from './Animation.js'
+import { mergeConfig } from './AnimationConfig.js'
+import { scheduleProps } from './scheduleProps.js'
+import {
+  runAsync,
+  RunAsyncState,
+  RunAsyncProps,
+  stopAsync,
+} from './runAsync.js'
 import {
   callProp,
   computeGoal,
@@ -41,28 +46,33 @@ import {
   getDefaultProp,
   isAsyncTo,
   resolveProp,
-} from './helpers'
-import { FrameValue, isFrameValue } from './FrameValue'
+} from './helpers.js'
+import { FrameValue, isFrameValue } from './FrameValue.js'
 import {
   isAnimating,
   isPaused,
   setPausedBit,
   hasAnimated,
   setActiveBit,
-} from './SpringPhase'
+} from './SpringPhase.js'
 import {
   AnimationRange,
   AnimationResolver,
   EventKey,
   PickEventFns,
-} from './types/internal'
-import { AsyncResult, SpringUpdate, VelocityProp, SpringProps } from './types'
+} from './types/internal.js'
+import {
+  AsyncResult,
+  SpringUpdate,
+  VelocityProp,
+  SpringProps,
+} from './types.js'
 import {
   getCombinedResult,
   getCancelledResult,
   getFinishedResult,
   getNoopResult,
-} from './AnimationResult'
+} from './AnimationResult.js'
 
 declare const console: any
 

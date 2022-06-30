@@ -1,5 +1,5 @@
-import { AnimatedArray } from './AnimatedArray'
-import { AnimatedValue } from './AnimatedValue'
+import { AnimatedArray } from './AnimatedArray.js'
+import { AnimatedValue } from './AnimatedValue.js'
 
 export type AnimatedType<T = any> = Function & {
   create: (

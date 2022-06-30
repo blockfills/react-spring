@@ -1,7 +1,7 @@
 import { isAnimatedString } from '@react-spring/shared'
-import { AnimatedObject } from './AnimatedObject'
-import { AnimatedString } from './AnimatedString'
-import { AnimatedValue } from './AnimatedValue'
+import { AnimatedObject } from './AnimatedObject.js'
+import { AnimatedString } from './AnimatedString.js'
+import { AnimatedValue } from './AnimatedValue.js'
 
 type Value = number | string
 type Source = AnimatedValue<Value>[]

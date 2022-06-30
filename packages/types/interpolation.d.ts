@@ -1,5 +1,5 @@
-import { Arrify, Constrain } from './util'
-import { Animatable } from './animated'
+import { Arrify, Constrain } from './util.js'
+import { Animatable } from './animated.js'
 
 export type EasingFunction = (t: number) => number
 

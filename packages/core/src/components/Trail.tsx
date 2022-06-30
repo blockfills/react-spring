@@ -2,10 +2,10 @@ import { ReactNode } from 'react'
 import { NoInfer, Falsy } from '@react-spring/types'
 import { is } from '@react-spring/shared'
 
-import { Valid } from '../types/common'
-import { PickAnimated, SpringValues } from '../types'
-import { UseSpringProps } from '../hooks/useSpring'
-import { useTrail } from '../hooks/useTrail'
+import { Valid } from '../types/common.js'
+import { PickAnimated, SpringValues } from '../types.js'
+import { UseSpringProps } from '../hooks/useSpring.js'
+import { useTrail } from '../hooks/useTrail.js'
 
 export type TrailComponentProps<Item, Props extends object = any> = unknown &
   UseSpringProps<Props> & {

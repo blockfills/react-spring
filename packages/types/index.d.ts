@@ -1,3 +1,3 @@
-export * from './animated'
-export * from './interpolation'
-export * from './util'
+export * from './animated.js'
+export * from './interpolation.js'
+export * from './util.js'

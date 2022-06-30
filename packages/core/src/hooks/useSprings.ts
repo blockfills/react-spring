@@ -14,19 +14,19 @@ import {
   ControllerUpdate,
   PickAnimated,
   SpringValues,
-} from '../types'
-import { UseSpringProps } from './useSpring'
-import { declareUpdate } from '../SpringValue'
+} from '../types.js'
+import { UseSpringProps } from './useSpring.js'
+import { declareUpdate } from '../SpringValue.js'
 import {
   Controller,
   getSprings,
   flushUpdateQueue,
   setSprings,
-} from '../Controller'
-import { hasProps, detachRefs, replaceRef } from '../helpers'
-import { SpringContext } from '../SpringContext'
-import { SpringRef } from '../SpringRef'
-import type { SpringRef as SpringRefType } from '../SpringRef'
+} from '../Controller.js'
+import { hasProps, detachRefs, replaceRef } from '../helpers.js'
+import { SpringContext } from '../SpringContext.js'
+import { SpringRef } from '../SpringRef.js'
+import type { SpringRef as SpringRefType } from '../SpringRef.js'
 
 export type UseSpringsProps<State extends Lookup = Lookup> = unknown &
   ControllerUpdate<State> & {

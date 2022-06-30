@@ -1,7 +1,7 @@
 import { each, is, deprecateDirectCall } from '@react-spring/shared'
 import { Lookup, Falsy, OneOrMore } from '@react-spring/types'
-import { AsyncResult, ControllerUpdate } from './types'
-import { Controller } from './Controller'
+import { AsyncResult, ControllerUpdate } from './types.js'
+import { Controller } from './Controller.js'
 
 export interface ControllerUpdateFn<State extends Lookup = Lookup> {
   (i: number, ctrl: Controller<State>): ControllerUpdate<State> | Falsy

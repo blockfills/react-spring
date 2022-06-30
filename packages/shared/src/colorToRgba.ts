@@ -1,4 +1,4 @@
-import { normalizeColor } from './normalizeColor'
+import { normalizeColor } from './normalizeColor.js'
 
 export function colorToRgba(input: string) {
   let int32Color = normalizeColor(input)

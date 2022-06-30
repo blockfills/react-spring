@@ -1,17 +1,17 @@
 import { InterpolatorConfig } from '@react-spring/types'
 
-import { getFluidValue } from './fluids'
-import { createInterpolator } from './createInterpolator'
-import { colorToRgba } from './colorToRgba'
-import * as G from './globals'
+import { getFluidValue } from './fluids.js'
+import { createInterpolator } from './createInterpolator.js'
+import { colorToRgba } from './colorToRgba.js'
+import * as G from './globals.js'
 import {
   cssVariableRegex,
   colorRegex,
   unitRegex,
   numberRegex,
   rgbaRegex,
-} from './regexs'
-import { variableToRgba } from './variableToRgba'
+} from './regexs.js'
+import { variableToRgba } from './variableToRgba.js'
 
 // Covers color names (transparent, blue, etc.)
 let namedColorRegex: RegExp

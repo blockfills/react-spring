@@ -1,6 +1,6 @@
-import { Valid } from '../types/common'
-import { TransitionComponentProps } from '../types'
-import { useTransition } from '../hooks'
+import { Valid } from '../types/common.js'
+import { TransitionComponentProps } from '../types.js'
+import { useTransition } from '../hooks.js'
 
 export function Transition<
   Item extends any,

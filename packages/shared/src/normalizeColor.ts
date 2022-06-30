@@ -32,8 +32,8 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-import * as matchers from './colorMatchers'
-import * as G from './globals'
+import * as matchers from './colorMatchers.js'
+import * as G from './globals.js'
 
 export function normalizeColor(color: number | string) {
   let match
@@ -55,8 +55,8 @@ export function normalizeColor(color: number | string) {
   if ((match = matchers.rgb.exec(color))) {
     return (
       ((parse255(match[1]) << 24) | // r
-      (parse255(match[2]) << 16) | // g
-      (parse255(match[3]) << 8) | // b
+        (parse255(match[2]) << 16) | // g
+        (parse255(match[3]) << 8) | // b
         0x000000ff) >>> // a
       0
     )
@@ -65,8 +65,8 @@ export function normalizeColor(color: number | string) {
   if ((match = matchers.rgba.exec(color))) {
     return (
       ((parse255(match[1]) << 24) | // r
-      (parse255(match[2]) << 16) | // g
-      (parse255(match[3]) << 8) | // b
+        (parse255(match[2]) << 16) | // g
+        (parse255(match[3]) << 8) | // b
         parse1(match[4])) >>> // a
       0
     )
@@ -76,11 +76,11 @@ export function normalizeColor(color: number | string) {
     return (
       parseInt(
         match[1] +
-        match[1] + // r
-        match[2] +
-        match[2] + // g
-        match[3] +
-        match[3] + // b
+          match[1] + // r
+          match[2] +
+          match[2] + // g
+          match[3] +
+          match[3] + // b
           'ff', // a
         16
       ) >>> 0
@@ -94,11 +94,11 @@ export function normalizeColor(color: number | string) {
     return (
       parseInt(
         match[1] +
-        match[1] + // r
-        match[2] +
-        match[2] + // g
-        match[3] +
-        match[3] + // b
+          match[1] + // r
+          match[2] +
+          match[2] + // g
+          match[3] +
+          match[3] + // b
           match[4] +
           match[4], // a
         16

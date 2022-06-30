@@ -12,13 +12,13 @@ import {
   FluidObserver,
 } from '@react-spring/shared'
 
-import { getDefaultProp } from './helpers'
-import { FrameValue } from './FrameValue'
-import type { SpringRef } from './SpringRef'
-import { SpringValue, createLoopUpdate, createUpdate } from './SpringValue'
-import { getCancelledResult, getCombinedResult } from './AnimationResult'
-import { runAsync, RunAsyncState, stopAsync } from './runAsync'
-import { scheduleProps } from './scheduleProps'
+import { getDefaultProp } from './helpers.js'
+import { FrameValue } from './FrameValue.js'
+import type { SpringRef } from './SpringRef.js'
+import { SpringValue, createLoopUpdate, createUpdate } from './SpringValue.js'
+import { getCancelledResult, getCombinedResult } from './AnimationResult.js'
+import { runAsync, RunAsyncState, stopAsync } from './runAsync.js'
+import { scheduleProps } from './scheduleProps.js'
 import {
   AnimationResult,
   AsyncResult,
@@ -28,7 +28,7 @@ import {
   OnRest,
   OnStart,
   SpringValues,
-} from './types'
+} from './types.js'
 
 /** Events batched by the `Controller` class */
 const BATCHED_EVENTS = ['onStart', 'onChange', 'onRest'] as const

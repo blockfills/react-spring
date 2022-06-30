@@ -1,5 +1,5 @@
 import { raf } from '@react-spring/rafz'
-import * as G from './globals'
+import * as G from './globals.js'
 
 export interface OpaqueAnimation {
   idle: boolean

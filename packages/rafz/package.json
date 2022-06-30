@@ -2,8 +2,11 @@
   "name": "@react-spring/rafz",
   "version": "9.4.5",
   "description": "react-spring's fork of rafz one frameloop to rule them all",
-  "main": "dist/react-spring-rafz.cjs.js",
-  "module": "dist/react-spring-rafz.esm.js",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
   "files": [
     "dist/*",
     "README.md",
@@ -23,5 +26,12 @@
     "velocity"
   ],
   "license": "MIT",
-  "author": "Josh Ellis"
+  "author": "Josh Ellis",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "yarn run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }

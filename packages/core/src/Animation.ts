@@ -1,8 +1,8 @@
 import { AnimatedValue } from '@react-spring/animated'
 import { FluidValue } from '@react-spring/shared'
-import { AnimationConfig } from './AnimationConfig'
-import { PickEventFns } from './types/internal'
-import { SpringProps } from './types'
+import { AnimationConfig } from './AnimationConfig.js'
+import { PickEventFns } from './types/internal.js'
+import { SpringProps } from './types.js'
 
 const emptyArray: readonly any[] = []
 

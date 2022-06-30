@@ -7,10 +7,7 @@ import {
 import { FluidValue, FluidProps } from '@react-spring/shared'
 import { Merge } from '@react-spring/types'
 
-import { Primitives } from './primitives'
-
-import type * as CSS from 'csstype'
-export type { CSS }
+import { Primitives } from './primitives.js'
 
 type AnimatedPrimitives = {
   [Tag in Primitives]: AnimatedComponent<Tag>
@@ -22,15 +19,14 @@ export type WithAnimated = {
 } & AnimatedPrimitives
 
 /** The type of an `animated()` component */
-export type AnimatedComponent<
-  T extends ElementType
-> = ForwardRefExoticComponent<
-  AnimatedProps<Merge<ComponentPropsWithRef<T>, { style?: StyleProps }>> &
-    FluidProps<{
-      scrollTop?: number
-      scrollLeft?: number
-    }>
->
+export type AnimatedComponent<T extends ElementType> =
+  ForwardRefExoticComponent<
+    AnimatedProps<Merge<ComponentPropsWithRef<T>, { style?: StyleProps }>> &
+      FluidProps<{
+        scrollTop?: number
+        scrollLeft?: number
+      }>
+  >
 
 /** The props of an `animated()` component */
 export type AnimatedProps<Props extends object> = {

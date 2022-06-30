@@ -1,5 +1,5 @@
-import { AnimationResult } from './types'
-import { Readable } from './types/internal'
+import { AnimationResult } from './types.js'
+import { Readable } from './types/internal.js'
 
 /** @internal */
 export const getCombinedResult = <T extends Readable>(

@@ -19,12 +19,12 @@ import {
   GoalProp,
   PickAnimated,
   SpringChain,
-} from './props'
-import { SpringToFn } from './functions'
-import { SpringValues, SpringConfig } from './objects'
-import { TransitionPhase } from '../TransitionPhase'
-import { Controller } from '../Controller'
-import { SpringRef } from '../SpringRef'
+} from './props.js'
+import { SpringToFn } from './functions.js'
+import { SpringValues, SpringConfig } from './objects.js'
+import { TransitionPhase } from '../TransitionPhase.js'
+import { Controller } from '../Controller.js'
+import { SpringRef } from '../SpringRef.js'
 
 /** The phases of a `useTransition` item */
 export type TransitionKey = 'initial' | 'enter' | 'update' | 'leave'

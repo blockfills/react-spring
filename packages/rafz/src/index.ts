@@ -5,7 +5,7 @@ import type {
   Rafz,
   Timeout,
   Throttled,
-} from './types'
+} from './types.js'
 
 export type { FrameFn, FrameUpdateFn, Timeout, Throttled, Rafz }
 

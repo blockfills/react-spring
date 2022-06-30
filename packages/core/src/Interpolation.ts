@@ -16,7 +16,7 @@ import {
   hasFluidValue,
 } from '@react-spring/shared'
 
-import { FrameValue, isFrameValue } from './FrameValue'
+import { FrameValue, isFrameValue } from './FrameValue.js'
 import {
   getAnimated,
   setAnimated,

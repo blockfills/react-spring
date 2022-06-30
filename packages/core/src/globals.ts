@@ -3,7 +3,7 @@ import {
   frameLoop,
   createStringInterpolator,
 } from '@react-spring/shared'
-import { Interpolation } from './Interpolation'
+import { Interpolation } from './Interpolation.js'
 
 // Sane defaults
 Globals.assign({

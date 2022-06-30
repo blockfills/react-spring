@@ -1,13 +1,13 @@
 import type { Lookup } from '@react-spring/types'
 import type { FluidValue } from '@react-spring/shared'
-import type { Controller } from '../Controller'
-import type { SpringValue } from '../SpringValue'
-import type { AsyncResult, AnimationResult } from './objects'
+import type { Controller } from '../Controller.js'
+import type { SpringValue } from '../SpringValue.js'
+import type { AsyncResult, AnimationResult } from './objects.js'
 import type {
   ControllerUpdate,
   ReservedEventProps,
   SpringUpdate,
-} from './props'
+} from './props.js'
 
 /** @internal */
 export interface Readable<T = any> {

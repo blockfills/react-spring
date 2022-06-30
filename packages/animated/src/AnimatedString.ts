@@ -1,4 +1,4 @@
-import { AnimatedValue } from './AnimatedValue'
+import { AnimatedValue } from './AnimatedValue.js'
 import { is, createInterpolator } from '@react-spring/shared'
 
 type Value = string | number

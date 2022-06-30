@@ -1,8 +1,8 @@
 import { Lookup } from '@react-spring/types'
 import { is, eachProp } from '@react-spring/shared'
-import { AnimatableComponent, withAnimated } from './withAnimated'
-import { Animated } from './Animated'
-import { AnimatedObject } from './AnimatedObject'
+import { AnimatableComponent, withAnimated } from './withAnimated.js'
+import { Animated } from './Animated.js'
+import { AnimatedObject } from './AnimatedObject.js'
 
 export interface HostConfig {
   /** Provide custom logic for native updates */

@@ -1,5 +1,5 @@
-import * as G from './globals'
-import { is } from './helpers'
+import * as G from './globals.js'
+import { is } from './helpers.js'
 import {
   Animatable,
   InterpolatorFn,

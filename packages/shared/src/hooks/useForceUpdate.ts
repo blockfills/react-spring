@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useIsMounted } from './useIsMounted'
+import { useIsMounted } from './useIsMounted.js'
 
 /** Return a function that re-renders this component, if still mounted */
 export function useForceUpdate() {

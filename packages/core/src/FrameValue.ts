@@ -8,7 +8,7 @@ import {
 import { InterpolatorArgs } from '@react-spring/types'
 import { getAnimated } from '@react-spring/animated'
 
-import { Interpolation } from './Interpolation'
+import { Interpolation } from './Interpolation.js'
 
 export const isFrameValue = (value: any): value is FrameValue =>
   value instanceof FrameValue

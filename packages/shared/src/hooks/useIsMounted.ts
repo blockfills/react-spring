@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { useLayoutEffect } from './useLayoutEffect'
+import { useLayoutEffect } from './useLayoutEffect.js'
 
 export const useIsMounted = () => {
   const isMounted = useRef(false)

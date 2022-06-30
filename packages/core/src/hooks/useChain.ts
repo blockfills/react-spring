@@ -1,6 +1,6 @@
 import { each, useLayoutEffect } from '@react-spring/shared'
-import { SpringRef } from '../SpringRef'
-import { callProp } from '../helpers'
+import { SpringRef } from '../SpringRef.js'
+import { callProp } from '../helpers.js'
 
 export function useChain(
   refs: ReadonlyArray<SpringRef>,

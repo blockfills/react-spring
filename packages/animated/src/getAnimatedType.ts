@@ -1,9 +1,9 @@
 import { is, isAnimatedString } from '@react-spring/shared'
-import { AnimatedType } from './types'
-import { AnimatedArray } from './AnimatedArray'
-import { AnimatedString } from './AnimatedString'
-import { AnimatedValue } from './AnimatedValue'
-import { getAnimated } from './Animated'
+import { AnimatedType } from './types.js'
+import { AnimatedArray } from './AnimatedArray.js'
+import { AnimatedString } from './AnimatedString.js'
+import { AnimatedValue } from './AnimatedValue.js'
+import { getAnimated } from './Animated.js'
 
 /** Return the `Animated` node constructor for a given value */
 export function getAnimatedType(value: any): AnimatedType {

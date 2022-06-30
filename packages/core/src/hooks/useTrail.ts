@@ -1,13 +1,13 @@
 import { each, is, useLayoutEffect } from '@react-spring/shared'
 
-import { Valid } from '../types/common'
-import { PickAnimated, SpringValues, AsyncResult } from '../types'
+import { Valid } from '../types/common.js'
+import { PickAnimated, SpringValues, AsyncResult } from '../types.js'
 
-import { ControllerUpdateFn, SpringRef } from '../SpringRef'
-import { Controller } from '../Controller'
+import { ControllerUpdateFn, SpringRef } from '../SpringRef.js'
+import { Controller } from '../Controller.js'
 
-import { UseSpringProps } from './useSpring'
-import { useSprings } from './useSprings'
+import { UseSpringProps } from './useSpring.js'
+import { useSprings } from './useSprings.js'
 
 export type UseTrailProps<Props extends object = any> = UseSpringProps<Props>
 

@@ -1,6 +1,6 @@
-import * as G from './globals'
-import { is, isSSR } from './helpers'
-import { cssVariableRegex } from './regexs'
+import * as G from './globals.js'
+import { is, isSSR } from './helpers.js'
+import { cssVariableRegex } from './regexs.js'
 
 // Not all strings can be animated (eg: {display: "none"})
 export function isAnimatedString(value: unknown): value is string {

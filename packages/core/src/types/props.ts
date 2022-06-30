@@ -12,12 +12,12 @@ import {
   UnknownProps,
 } from '@react-spring/types'
 
-import { Controller } from '../Controller'
-import { SpringRef } from '../SpringRef'
-import { SpringValue } from '../SpringValue'
-import { SpringConfig } from './objects'
-import { StringKeys, RawValues, IsPlainObject } from './common'
-import { TransitionKey, TransitionValues } from './transition'
+import { Controller } from '../Controller.js'
+import { SpringRef } from '../SpringRef.js'
+import { SpringValue } from '../SpringValue.js'
+import { SpringConfig } from './objects.js'
+import { StringKeys, RawValues, IsPlainObject } from './common.js'
+import { TransitionKey, TransitionValues } from './transition.js'
 import {
   SpringToFn,
   OnChange,
@@ -27,7 +27,7 @@ import {
   OnPause,
   OnResume,
   OnResolve,
-} from './functions'
+} from './functions.js'
 
 /**
  * Move all non-reserved props into the `to` prop.

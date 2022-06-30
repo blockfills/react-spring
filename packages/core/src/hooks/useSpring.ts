@@ -1,10 +1,10 @@
 import { Remap } from '@react-spring/types'
 import { is } from '@react-spring/shared'
 
-import { ControllerUpdate, PickAnimated, SpringValues } from '../types'
-import { Valid } from '../types/common'
-import { SpringRef } from '../SpringRef'
-import { useSprings } from './useSprings'
+import { ControllerUpdate, PickAnimated, SpringValues } from '../types.js'
+import { Valid } from '../types/common.js'
+import { SpringRef } from '../SpringRef.js'
+import { useSprings } from './useSprings.js'
 
 /**
  * The props that `useSpring` recognizes.

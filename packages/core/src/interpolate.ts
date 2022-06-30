@@ -7,7 +7,7 @@ import {
   InterpolatorConfig,
   InterpolatorFn,
 } from '@react-spring/types'
-import { Interpolation } from './Interpolation'
+import { Interpolation } from './Interpolation.js'
 
 /** Map the value of one or more dependencies */
 export const to: Interpolator = (source: any, ...args: [any]) =>

@@ -1,5 +1,5 @@
-import { isSSR } from './helpers'
-import { cssVariableRegex } from './regexs'
+import { isSSR } from './helpers.js'
+import { cssVariableRegex } from './regexs.js'
 
 /**
  * takes a CSS variable and attempts

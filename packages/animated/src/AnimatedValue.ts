@@ -1,5 +1,5 @@
 import { is } from '@react-spring/shared'
-import { Animated, Payload } from './Animated'
+import { Animated, Payload } from './Animated.js'
 
 /** An animated number or a native attribute value */
 export class AnimatedValue<T = any> extends Animated {

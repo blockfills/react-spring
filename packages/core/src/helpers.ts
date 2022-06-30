@@ -8,9 +8,9 @@ import {
   Globals as G,
 } from '@react-spring/shared'
 import { AnyFn, OneOrMore, Lookup } from '@react-spring/types'
-import { ReservedProps, ForwardProps, InferTo } from './types'
-import type { Controller } from './Controller'
-import type { SpringRef } from './SpringRef'
+import { ReservedProps, ForwardProps, InferTo } from './types.js'
+import type { Controller } from './Controller.js'
+import type { SpringRef } from './SpringRef.js'
 
 export function callProp<T>(
   value: T,

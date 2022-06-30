@@ -8,10 +8,15 @@ import {
 } from '@react-spring/shared'
 import { Falsy } from '@react-spring/types'
 
-import { getDefaultProps } from './helpers'
-import { AnimationTarget, InferState, InferProps } from './types/internal'
-import { AnimationResult, AsyncResult, SpringChain, SpringToFn } from './types'
-import { getCancelledResult, getFinishedResult } from './AnimationResult'
+import { getDefaultProps } from './helpers.js'
+import { AnimationTarget, InferState, InferProps } from './types/internal.js'
+import {
+  AnimationResult,
+  AsyncResult,
+  SpringChain,
+  SpringToFn,
+} from './types.js'
+import { getCancelledResult, getFinishedResult } from './AnimationResult.js'
 
 type AsyncTo<T> = SpringChain<T> | SpringToFn<T>
 

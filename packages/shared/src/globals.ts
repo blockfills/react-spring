@@ -5,9 +5,9 @@ import {
   InterpolatorArgs,
 } from '@react-spring/types'
 
-import { FluidValue } from './fluids'
-import type { OpaqueAnimation } from './FrameLoop'
-import { noop } from './helpers'
+import { FluidValue } from './fluids.js'
+import type { OpaqueAnimation } from './FrameLoop.js'
+import { noop } from './helpers.js'
 
 //
 // Required

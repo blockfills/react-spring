@@ -1,13 +1,12 @@
 import { NoInfer, UnknownProps } from '@react-spring/types'
-import { useSpring, UseSpringProps } from '../hooks/useSpring'
-import { SpringValues, SpringToFn, SpringChain } from '../types'
+import { useSpring, UseSpringProps } from '../hooks/useSpring.js'
+import { SpringValues, SpringToFn, SpringChain } from '../types.js'
 
-export type SpringComponentProps<
-  State extends object = UnknownProps
-> = unknown &
-  UseSpringProps<State> & {
-    children: (values: SpringValues<State>) => JSX.Element | null
-  }
+export type SpringComponentProps<State extends object = UnknownProps> =
+  unknown &
+    UseSpringProps<State> & {
+      children: (values: SpringValues<State>) => JSX.Element | null
+    }
 
 // Infer state from "from" object prop.
 export function Spring<State extends object>(

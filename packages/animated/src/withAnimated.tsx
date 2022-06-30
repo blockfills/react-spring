@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { forwardRef, useRef, Ref, useCallback, useEffect } from 'react'
 import {
   is,
@@ -14,9 +13,9 @@ import {
 } from '@react-spring/shared'
 import { ElementType } from '@react-spring/types'
 
-import { AnimatedObject } from './AnimatedObject'
-import { TreeContext } from './context'
-import { HostConfig } from './createHost'
+import { AnimatedObject } from './AnimatedObject.js'
+import { TreeContext } from './context.js'
+import { HostConfig } from './createHost.js'
 
 export type AnimatableComponent = string | Exclude<ElementType, string>
 

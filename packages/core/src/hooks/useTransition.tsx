@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { useContext, useRef, useMemo } from 'react'
 import { OneOrMore, UnknownProps } from '@react-spring/types'
 import {
@@ -20,8 +19,8 @@ import {
   TransitionState,
   TransitionTo,
   UseTransitionProps,
-} from '../types'
-import { Valid } from '../types/common'
+} from '../types.js'
+import { Valid } from '../types/common.js'
 import {
   callProp,
   detachRefs,
@@ -29,12 +28,12 @@ import {
   hasProps,
   inferTo,
   replaceRef,
-} from '../helpers'
-import { Controller, getSprings } from '../Controller'
-import { SpringContext } from '../SpringContext'
-import { SpringRef } from '../SpringRef'
-import type { SpringRef as SpringRefType } from '../SpringRef'
-import { TransitionPhase } from '../TransitionPhase'
+} from '../helpers.js'
+import { Controller, getSprings } from '../Controller.js'
+import { SpringContext } from '../SpringContext.js'
+import { SpringRef } from '../SpringRef.js'
+import type { SpringRef as SpringRefType } from '../SpringRef.js'
+import { TransitionPhase } from '../TransitionPhase.js'
 
 declare function setTimeout(handler: Function, timeout?: number): number
 declare function clearTimeout(timeoutId: number): void

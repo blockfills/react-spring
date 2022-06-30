@@ -2,7 +2,13 @@
   "name": "@react-spring/types",
   "version": "9.4.5",
   "description": "Internal package with TypeScript stuff",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./animated": "./animated.d.ts",
+    "./interpolation": "./interpolation.d.ts",
+    "./package.json": "./package.json"
+  },
   "repository": "pmndrs/react-spring",
   "homepage": "https://github.com/pmndrs/react-spring#readme",
   "keywords": [
@@ -20,5 +26,16 @@
   "author": "Paul Henschel",
   "maintainers": [
     "Josh Ellis (https://github.com/joshuaellis)"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.14"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.8 || 17.x || 18.x"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  }
 }
